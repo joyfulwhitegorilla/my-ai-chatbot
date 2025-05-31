@@ -4,7 +4,7 @@ import os
 from dotenv import load_dotenv
 
 # 2. Paste your API key (between the quotes)
-client = groq.Groq(api_key="your-ap-key")
+client = groq.Groq(api_key="your-api-key")
 
 # Or use environment variables
 # load_dotenv()
